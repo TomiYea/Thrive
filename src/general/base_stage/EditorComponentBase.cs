@@ -85,7 +85,7 @@ public partial class EditorComponentBase<TEditor> : ControlWithInput, IEditorCom
         else if (OnFinish != null)
         {
             // Turn the next button into the finish button
-            finishOrNextButton.Text = Localization.Translate("CONFIRM_CAPITAL");
+            finishOrNextButton.Text = "CONFIRM_CAPITAL";
             finishOrNextButton.UnRegisterFirstToolTipForControl();
             finishOrNextButton.RegisterToolTipForControl("finishButton", "editor");
         }
