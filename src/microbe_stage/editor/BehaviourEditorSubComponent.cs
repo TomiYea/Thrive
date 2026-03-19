@@ -165,6 +165,7 @@ public partial class BehaviourEditorSubComponent : EditorComponentBase<ICellEdit
 
     protected override void OnTranslationsChanged()
     {
+        base.OnTranslationsChanged();
     }
 
     protected override void RegisterTooltips()

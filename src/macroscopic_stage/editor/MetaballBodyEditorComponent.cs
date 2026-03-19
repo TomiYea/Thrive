@@ -431,6 +431,8 @@ public partial class MetaballBodyEditorComponent :
 
     protected override void OnTranslationsChanged()
     {
+        base.OnTranslationsChanged();
+
         // TODO: do we want specialization in macroscopic?
     }
 
